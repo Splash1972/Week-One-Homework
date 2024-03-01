@@ -1,3 +1,5 @@
+/* This is the box around the main content */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,10 +10,15 @@ body {
     background-color: #d9dcd6;
 }
 
+/* I added a fixed position attribute */
 .header {
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #71bfe6;
+    background-color: #7ccaf1;
     color: #ffffff;
 }
 
@@ -83,7 +90,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2587bb;
 }
 
 .benefit-lead {
@@ -139,7 +146,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2587bb;
     color: #ffffff;
 }
 
@@ -148,7 +155,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2587bb;
     color: #ffffff;
 }
 
@@ -157,7 +164,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2587bb;
     color: #ffffff;
 }
 
