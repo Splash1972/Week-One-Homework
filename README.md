@@ -4,6 +4,10 @@ I can look back now on this week one assignment, and realize I missed the mark.
 
 We're almost done with the cohort now, and while I don't have much time in my schedule because of the aforementioned cohort, I still always wanted to go back and try this challenge again, especially since I've learned so much more.
 
+Here is the github URL for the repository:
+
+https://github.com/Splash1972/Week-One-Homework
+
 **Refactoring** 
 
 The challenge was to refactor code.  I came into the cohort at the very last minute, and because of that I wasn't able to do any of the prework.  This put me at a disadvantage.  This is why I wanted to revisit this challenge.  

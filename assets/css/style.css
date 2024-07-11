@@ -1,16 +1,18 @@
 /* This is the box around the main content */
 
-* {
+* { /* The star means these three things will be styled regardless of type or class */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This code sets the background color for the <body> section */
 body {
     background-color: #d9dcd6;
 }
 
-/* I added a fixed position attribute */
+/* I added a fixed position attribute - also this adds the light blue color and sets the font family
+for the text as it applies to wherever the class is set to class="header" */
 .header {
     position: fixed;
     top: 0;
@@ -22,15 +24,19 @@ body {
     color: #ffffff;
 }
 
+/* This sets the h1 class, but only if the h1 is used within the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This sets a class that is used within the header and the h1 tags. When class="seo" the "seo" in the 
+word is a different color than the rest of the word */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This sets the styling for the banner across the top, and only affects any div tags within the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,24 +45,29 @@ body {
     font-size: 20px;
 }
 
+/* This removes any default styling for the unordered list items within the header div */
 .header div ul {
     list-style-type: none;
 }
 
+/* This displays the list in a line and sets the margins */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This affects any a tag and colors them white and removes any default styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This sets the font size in all p tags */
 p {
     font-size: 16px;
 }
 
+/* There is a div tag with a class of "hero", and this puts the picture in it, sizes and positions it */
 .hero {
     height: 800px;
     width: 100%;
@@ -66,22 +77,27 @@ p {
     background-position: center;
 }
 
+/* a class used for positioning to the left in a container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* a class used for positioning to the right in a container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* this sets the styling in the hero section */
 .content {
     width: 75%;
     display: inline-block;
+    /* allows to set a width and height on the element. */
     margin-left: 20px;
 }
 
+/* sets the styling in the benefits container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,55 +109,27 @@ p {
     background-color: #2587bb;
 }
 
-.benefit-lead {
+/* sets the color and margin for this specific class */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* sets the color and centers text for this h3 tag within the benefit-lead class */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* this styling is specific to this image */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* This sets the style for everything within this div element with the class "search-engine-optimization" */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,51 +138,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2587bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2587bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Styling for this image */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Styling for this h2 element inside this class */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styles the footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -202,6 +157,7 @@ p {
     text-align: center;
 }
 
+/* Styles the h2 element within the footer class */
 .footer h2 {
     font-size: 20px;
 }
